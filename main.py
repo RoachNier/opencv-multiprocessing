@@ -2,8 +2,8 @@ import time
 import cv2
 import numpy as np
 import multiprocessing as mp
-from detector import get_points_from_cnts, detector
-from drawer import drawer
+from process.detector import get_points_from_cnts, detector
+from process.drawer import drawer
 
 from config import (NUM_OF_FRAMES_TO_STACK,
                     lk_params,
